@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(135deg, #4facfe, #ffffff, #ff9a9e);
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.3);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+  gap: 15px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.toc .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background: #701e1e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.business-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+.business-card-img {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+.business-card-img {
+  transition: transform 0.3s ease;
+}
+
+.business-card-img:hover {
+  transform: scale(1.05);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.logo-img {
+  width: 96px;
+  height: 96px;
+  border-radius: 8px;
+}
+.logo-img {
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.project {
+  position: relative;
+  display: inline-block;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 40px;
+  color: white;
+  pointer-events: none;
+}
